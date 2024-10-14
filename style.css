@@ -1,0 +1,212 @@
+@charset "UTF-8";
+/* Color Theme Swatches in Hex */
+.Doação-Legal { color: #5AD5DB; }
+.Doação-Legal { color: #5A83DB; }
+.Doação-Legal { color: #5AACDB; }
+.Doação-Legal { color: #5ADBB6; }
+.Doação-Legal { color: #5A5ADB; }
+.Doação-Legal { color: #A3C7DB; }
+
+*{
+    font-family:Arial, Helvetica, sans-serif;
+     box-sizing:border-box;
+     font-size: clamp(0.9rem, 1vw, 1.5rem);
+}
+
+header{
+    background-image: linear-gradient(to right,#5ADBB6,#5A83DB,#5ADBB6) ;
+    text-align: center;
+    padding: 0px;
+    width: 100%;
+    height: 80px;
+}
+footer{
+    background-color:#5A5ADB ;
+    text-align: center;
+    color:#5AACDB;
+    width: 100%;
+    height: 47px;
+    padding:0px;
+    position: fixed;
+    bottom:0px;
+}
+footer > p{
+    margin:0px;
+}
+main{
+    text-align: center;
+    width:100%;
+}
+section{
+    text-align: center;
+    width: 100%;
+}
+nav{
+    text-align: center;
+    overflow: auto;
+    background:#5ADBB6;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+}
+
+nav a{
+    margin-right: 30px;
+}
+nav a::after{
+    content: none;
+}
+nav a::before{
+    content: none;
+}
+nav a:hover{
+    background-color: #5A5ADB;
+    color:#5A83DB;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    color:#5AACDB;
+    font-size: clamp(1rem,4vw,2,3rem);
+}
+a:visited{
+    color:#5AACDB;
+}
+a:actived{
+    color:#5ADBB6
+}
+a::after{
+    content: '⇦';
+    text-decoration: none;
+    font-weight: normal;
+    color:#5AACDB ;
+}
+a::before{
+    content:'⇨';
+    text-decoration: none;
+    font-weight: normal;
+    color:#5AACDB;
+}
+.especialacima::after{
+
+    content: none;
+}
+.especialacima::before{
+    content:'🔝';
+    text-decoration: none;
+    font-weight: normal;
+    color:blueviolet
+}
+.especialtopo::before{
+      content: none;
+}
+.especialtopo::after{
+    content:none;
+}
+h1{
+    text-align: center;
+    color:#5A83DB;
+    font-family: 'Times New Roman', Times,serif;
+    font-weight: normal;
+    font-size: clamp(1.2rem,2.2vw,4rem);
+}
+#unico{
+    text-decoration: none;
+    color:#A3C7DB;
+    font-size:clamp(1.5rem,3vw,6rem) ;
+    font-weight: bold;
+    margin:0;
+    padding:12px 1px 1px 1px;
+}
+div.galeria{
+    background-color: rgb(242,156,250);
+    width: 290px;
+    height: auto;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: left;
+    color: black;
+    margin:5px;
+}
+div.galeria img{
+    width: 90%;
+    height: auto;
+}
+div.galeria p{
+    text-align: center;
+}
+div.galeria :hover{
+    background-color: rgb(101, 4, 126);
+    color: white;
+}
+div.galeria > h2{
+    text-align: center;
+    background-color:#5ADBB6;
+    color:#5A5ADB;
+    font-size: clamp(1.1rem,1.8vw,2.8rem);
+}
+div.galeria OL{
+    font-weight: bold;
+}
+.conteiner{
+    position:relative;
+    overflow: hidden;
+    width:100%;
+    height: 100%;
+    padding-bottom: 44%.5;
+}
+.responsividade-iframe{
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    width: 100%;
+    height: 100%;
+    background-image: url('Fundo_Pata.jpeg');
+    background-repeat: repeat;
+}
+.dropbtn{
+    background-color: azure;
+    color: purple;
+    font-weight: bold;
+    font-size:clamp(1.5rem,2vw,3rem);
+    padding:16px;
+    border:none;
+    cursor: pointer;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display:none;
+    position:absolute;
+    right:0;
+    background-color:aqua;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgb(101, 4, 126);
+    z-index:1;
+}
+.dropdown-content a{
+    color:black;
+    padding:12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a::after{
+    content: none;
+}
+.dropdown-content a::before{
+    content:none;
+}
+.dropdown-content a:hover{
+    background-color: blue;
+    color: green;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown:hover .dropbtn{
+    background-color: #5ADBB6;
+}
